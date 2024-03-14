@@ -1,3 +1,5 @@
+import "foo"
+
 export const config = {
   runtime: 'edge',
 };
