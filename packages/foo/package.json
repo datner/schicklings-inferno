@@ -3,9 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "types": "./index.d.ts",
-    "node": "./index.node.js",
-    "default": "./index.browser.js"
+    ".": {
+      "types": "./index.d.ts",
+      "node": "./index.node.js",
+      "default": "./index.browser.js"
+    },
+    "./bar": {
+      "types": "./index.d.ts",
+      "node": "./bar.node.js",
+      "default": "./bar.browser.js"
+    }
   },
   "scripts": {
     "dev": "echo 'Add dev script here'",

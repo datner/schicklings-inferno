@@ -1,4 +1,5 @@
 import "foo"
+import "foo/bar"
 
 export const config = {
   runtime: 'edge',
